@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OrangeHRM Test Suite">
+<!-- Test Case 1-->  
+
+	<test name="Pending Leave Request Testcase">
+		<classes>
+			<class name ="testcases.Test_Pending_Leave_Request"/>
+		</classes>
+	</test>
+	
+<!-- Test Case 2-->  
+
+	<test name="Check User Role Testcase">
+		<classes>
+			<class name ="testcases.Test_User_Role"/>
+		</classes>
+	</test>
+</suite>

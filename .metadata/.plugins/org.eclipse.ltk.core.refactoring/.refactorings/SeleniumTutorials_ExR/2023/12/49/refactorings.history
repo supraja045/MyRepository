@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;OpenGoogleChrome.java&apos; to &apos;SeleniumTutorials_ExR/src/org.excelr.selenium&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumTutorials_ExR&apos;&#x0D;&#x0A;- Destination element: &apos;SeleniumTutorials_ExR/src/org.excelr.selenium&apos;&#x0D;&#x0A;- Original element: &apos;OpenGoogleChrome.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;org.excelr.selenium" element1="/src&lt;{OpenGoogleChrome.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1701848636096" units="1" version="1.0"/>
+</session>

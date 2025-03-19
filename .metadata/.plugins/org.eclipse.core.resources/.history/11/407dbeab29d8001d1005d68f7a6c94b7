@@ -1,0 +1,11 @@
+package com.lao.selenium.advanced;
+
+public class WallClockDiscountExample {
+
+	public static void main(String[] args) {
+		//Write JavaScript code to apply 15% discount on wall clock product 
+		//and show both actual and discounted price on web page on click of a web button.
+
+	}
+
+}

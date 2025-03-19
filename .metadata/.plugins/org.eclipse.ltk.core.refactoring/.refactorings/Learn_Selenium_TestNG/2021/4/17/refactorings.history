@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.lao.TestNG&apos; to &apos;LearnSelenium/src&apos;&#x0D;&#x0A;- Original project: &apos;Learn_Selenium_TestNG&apos;&#x0D;&#x0A;- Destination element: &apos;LearnSelenium/src&apos;&#x0D;&#x0A;- Original element: &apos;Learn_Selenium_TestNG/src/com.lao.TestNG&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=LearnSelenium/src" element1="/src&lt;com.lao.TestNG" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1619290642443" version="1.0"/>
+</session>

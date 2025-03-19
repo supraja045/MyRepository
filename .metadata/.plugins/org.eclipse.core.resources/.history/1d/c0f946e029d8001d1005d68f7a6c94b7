@@ -1,0 +1,17 @@
+package com.lao.selenium.advanced;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class WallClockDiscountExample {
+
+	public static void main(String[] args) {
+		//Write JavaScript code to apply 15% discount on wall clock product 
+		//and show both actual and discounted price on web page on click of a web button.
+		
+	WebDriver driver= new ChromeDriver();
+	driver.findElement("//*[@id=wallclockProdict"]);
+	}
+
+}

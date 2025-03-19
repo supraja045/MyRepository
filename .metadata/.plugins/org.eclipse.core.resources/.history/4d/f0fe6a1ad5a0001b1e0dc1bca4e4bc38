@@ -1,0 +1,12 @@
+package com.lao.selenium.advanced;
+
+public class ImageExamples {
+
+	public static void main(String[] args) {
+		
+		
+		//http://www.leafground.com/pages/Image.html
+
+	}
+
+}

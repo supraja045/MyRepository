@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="testTestcases(failed)">
+    <classes>
+      <class name="com.lao.datadrivenframework.ReadFromExcelFile">
+        <methods>
+          <include name="loginMethod"/>
+        </methods>
+      </class> <!-- com.lao.datadrivenframework.ReadFromExcelFile -->
+    </classes>
+  </test> <!-- testTestcases(failed) -->
+</suite> <!-- Failed suite [testSuite] -->

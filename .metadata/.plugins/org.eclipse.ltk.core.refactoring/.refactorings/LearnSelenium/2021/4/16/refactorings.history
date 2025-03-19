@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.lao.selenium.OpenGoogleWithChrome1&apos; to &apos;OpenGoogleWithFirefox&apos;&#x0D;&#x0A;- Original project: &apos;LearnSelenium&apos;&#x0D;&#x0A;- Original element: &apos;com.lao.selenium.OpenGoogleWithChrome1&apos;&#x0D;&#x0A;- Renamed element: &apos;com.lao.selenium.OpenGoogleWithFirefox&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;OpenGoogleWithChrome1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.lao.selenium{OpenGoogleWithChrome1.java[OpenGoogleWithChrome1" matchStrategy="1" name="OpenGoogleWithFirefox" qualified="false" references="true" similarDeclarations="false" stamp="1618684125503" textual="false" version="1.0"/>
+</session>

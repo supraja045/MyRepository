@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Learn_Selenium_TestNG&apos;" deleteContents="false" description="Delete resource &apos;Learn_Selenium_TestNG&apos;" element1="/Learn_Selenium_TestNG" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1619290655099"/>
+</session>

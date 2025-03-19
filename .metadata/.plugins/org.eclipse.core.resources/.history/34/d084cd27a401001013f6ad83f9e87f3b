@@ -1,0 +1,30 @@
+package seleniumTest;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class openGoogle {
+	
+	public static void main(String[] args) {
+		
+		 WebDriverManager.chromedriver().setup();
+	        WebDriver driver = new ChromeDriver();
+	        driver.get("https://www.google.com");
+	        ExtentHtmlReporter reporter= new ExtentHtmlReporter("report.html");
+	        		ExtentReports extentReports= new ExtentReports();
+	        		extentReports.attachReporter(reporter);
+	        		ExtentTest test=extentReports.createTest("Whatsup Duck");
+	        		driver= new ChromeDriver();
+	        		driver.get("http://www.google.com");
+	        		driver.findElement(By.name("q")).sendKeys("Whatsup Duck!");
+	        		driver.findElement(By.name("q")).submit();
+	        		test.pass("Test Passed");
+	        		driver.quit();
+	        		extentReports.flush();|
+	        
+	        
+	        System.out.println("Page Title: " + driver.getTitle());
+	        driver.quit();
+}
+}

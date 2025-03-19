@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;testcases.Login_Functions&apos; to &apos;Login_testcase&apos;&#x0D;&#x0A;- Original project: &apos;GramPowerAutomation&apos;&#x0D;&#x0A;- Original element: &apos;testcases.Login_Functions&apos;&#x0D;&#x0A;- Renamed element: &apos;testcases.Login_testcase&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Login_Functions&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;testcases{Login_Functions.java[Login_Functions" matchStrategy="1" name="Login_testcase" qualified="false" references="true" similarDeclarations="false" stamp="1698508927693" textual="false" version="1.0"/>
+</session>

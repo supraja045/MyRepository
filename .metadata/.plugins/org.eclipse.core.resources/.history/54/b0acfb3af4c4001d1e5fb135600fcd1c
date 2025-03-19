@@ -1,0 +1,39 @@
+package com.lao.string_concepts;
+
+public class StringBufferExamples {
+
+	public static void main(String[] args) {
+		System.out.println("String is Immutable");
+		String name= "Arya";
+		System.out.println("Appending a name to original: "+ name.concat("Prasath"));
+		System.out.println("Original name : "+name);
+		System.out.println("-------------------------------");
+		System.out.println("String Buffer is mutable");
+		StringBuffer name1 = new StringBuffer("Arya");
+		System.out.println("Appending a name to original: "+ name1.append("Prasath"));
+		System.out.println("Original name : "+name1);
+		
+		
+		//String Buffer methods
+		//Reverse - We can't reverse a string directly
+		System.out.println("Reveresed name: " +name1.reverse());
+		
+		//Replace
+		StringBuffer myName = new StringBuffer("Supraja");
+		System.out.println(myName.replace(0, 3, "Riya"));
+		
+		//Delete
+		StringBuffer myName1 = new StringBuffer("RiyaSupraja");
+		System.out.println(myName1.delete(0, 4));
+		
+		//Insert
+		StringBuffer myName2 = new StringBuffer("Supraja");
+		System.out.println(myName2.insert(6, "Hello"));
+		
+		//capacity
+		System.out.println(name1.capacity()); // default capacity =20
+		//like String, we have charAt,Substring ,length methods as well.
+		
+		
+	}
+}

@@ -1,0 +1,9 @@
+package com.lao.selenium;
+
+public class CheckBoxExamples {
+
+	
+	public static void main(String[] args) {
+		
+	}
+}

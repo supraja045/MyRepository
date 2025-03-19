@@ -1,0 +1,50 @@
+package com.lao.selenium;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class AlertExamples {
+
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver", "D:\\Softwares\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
+		driver.get("http://www.leafground.com/pages/Alert.html");
+		
+		WebElement alertBoxButton= driver.findElement(By.xpath("//*[@id='contentblock']//button[text()='Alert Box']"));
+		alertBoxButton.click();
+		
+		Alert alert = driver.switchTo().alert();
+		Thread.sleep(3000);
+		alert.accept();
+		
+		WebElement confirmBoxButton= driver.findElement(By.xpath("//*[@id='contentblock']//button[text()='Confirm Box']"));
+		confirmBoxButton.click();
+		
+		Thread.sleep(3000);
+		alert.dismiss();
+		
+		WebElement promptBoxButton= driver.findElement(By.xpath("//*[@id='contentblock']//button[text()='Prompt Box']"));
+		promptBoxButton.click();
+		Thread.sleep(3000);
+		Alert promptAlert = driver.switchTo().alert();
+		Thread.sleep(3000);
+		promptAlert.sendKeys("Hello");
+		promptAlert.accept();
+		
+		// //*[@id='contentblock']//button[text()='Prompt Box']
+		// //*[@id='contentblock']//button[text()='Line Breaks?']
+
+	
+	}
+	
+	
+
+}

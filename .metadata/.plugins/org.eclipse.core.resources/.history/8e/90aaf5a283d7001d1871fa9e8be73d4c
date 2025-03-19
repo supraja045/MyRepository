@@ -1,0 +1,18 @@
+package com.LearnAutomationOnline;
+
+public class ReverseWords {
+
+public static void main(String[] args) {
+	
+	String inputString ="india is great";
+	String[] outputArray;
+	
+	String[] splitArray=inputString.split(" ");
+	for (int i = splitArray.length-1; i >=0 ; i--) 
+	{
+	 System.out.println(splitArray[i]);	
+	 outputArray=spliArray[i];
+	 
+	}
+}
+}

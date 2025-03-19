@@ -1,0 +1,50 @@
+package com.lao.selenium;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class DropDownExamples 
+{
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.gecko.driver", "D:\\Softwares\\geckodriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+
+		driver.get("http://www.leafground.com/pages/Dropdown.html");
+
+		//1.Select dropdown from index
+		WebElement dropdown1= driver.findElement(By.id("dropdown1"));
+		Select select = new Select(dropdown1);
+		select.selectByIndex(4);
+
+
+		//2.Select dropdown from visible text
+		WebElement dropdown2= driver.findElement(By.name("dropdown2"));
+		Select selectByValue = new Select(dropdown2);
+		selectByValue.selectByValue("1");
+
+		//3.Select dropdown from value
+		WebElement dropdown3= driver.findElement(By.id("dropdown3"));
+		Select selectByText = new Select(dropdown3);
+		selectByText.selectByVisibleText("Selenium");
+		
+		
+		//4. Get the values from the dropdown  
+		
+		WebElement dropdown4= driver.findElement(By.className("dropdown"));
+		Select getOption = new Select(dropdown3);
+		
+		{
+			
+		}
+
+	}
+}
