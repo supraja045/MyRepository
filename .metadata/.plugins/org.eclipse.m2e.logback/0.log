@@ -5932,3 +5932,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 2025-03-17 09:47:09,663 [Worker-14: Launching ExtentReportsViaMaven (18)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\supra\eclipse-workspace\ExtentReportsViaMaven":
 2025-03-17 09:47:09,664 [Worker-14: Launching ExtentReportsViaMaven (18)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always site
 2025-03-17 11:45:42,077 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2025-03-19 13:06:14,630 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
